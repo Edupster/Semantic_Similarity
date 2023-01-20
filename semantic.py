@@ -9,6 +9,30 @@ print(word1.similarity(word2))
 print(word3.similarity(word2))
 print(word3.similarity(word1))
 
+#Write a note about what you found interesting about the similarities 
+# between cat, monkey and banana and think of an example of your own.
+
+#Comparing cat and monkey they have more than 50% of similarity because 
+#are annimals meanwhile cat and banana have the lowest similarity. banana 
+# and monkey have the second highest similarity because they are linked by
+# the fact that monkeys eat bananas
+
+word4 = nlp("church")
+word5 = nlp("singer")
+word6 = nlp("music") 
+
+print("____________________________________________________\n")
+
+print(word4.similarity(word5))
+print(word6.similarity(word5))
+print(word6.similarity(word4))
+
+print("\n____________________________________________________\n")
+
+#Comparing the wordds church, singer and music, the pair of words with the 
+#higests similarity are singer and music, this has sense because both words
+#are linked.
+
 
 #---------------------------------------------------------------------------------------------------------------------------------------------
 
