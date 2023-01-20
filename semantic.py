@@ -1,6 +1,8 @@
 import spacy
-nlp = spacy.load('en_core_web_md')
+nlp = spacy.load('en_core_web_sm')
 
+#swapping en_core_web_md with en_core_web_sm the accuracy of 
+#the similarity between the words decreased. 
 #---------------------------------------------------------------------------------------------------------------------------------------------
 word1 = nlp("cat")
 word2 = nlp("monkey")
